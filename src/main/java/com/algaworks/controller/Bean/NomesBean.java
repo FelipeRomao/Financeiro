@@ -15,8 +15,8 @@ public class NomesBean {
 	private String nome;
 	private List<String> nomes = new ArrayList<>();
 
-	HtmlInputText inputNome;
-	HtmlCommandButton botaoAdicionar;
+	private HtmlInputText inputNome;
+	private HtmlCommandButton botaoAdicionar;
 
 	public void adicionar() {
 		this.nomes.add(nome);
